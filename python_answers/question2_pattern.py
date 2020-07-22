@@ -10,15 +10,15 @@ def pattern(n):
         # for loop for printing spaces 
         for g in range(k,n): 
             if g>=k: 
-                print("  ") 
+                print(" ") 
   
         # according to value of k carry 
         # out further operation 
         for j in range(0,k): 
             if j == k - 1: 
-                print(" * ") 
+                print("* ") 
             else: 
-				end = ""
+				end = " "
 				print(" * " + end) 
   
   
